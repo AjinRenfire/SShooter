@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    
+}
+
+#playground{
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#space {
+    background: linear-gradient(midnightblue,rebeccapurple);
+    border: 2px solid black;
+    height: 720px;
+    width: 1280px;
+    
+}
+
+#player{
+    position: relative;
+    
+    top:50%;
+    height: 64px;
+    width:64px;
+    background-color: lightseagreen;
+}
+
+.destroyable {
+    position: absolute;
+    height: 64px;
+    width:64px;
+    background-color: lightsalmon;
+}
