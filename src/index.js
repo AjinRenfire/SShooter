@@ -14,6 +14,9 @@ PLAYER.y = PLAYER.offsetTop;
 function shootAmmo(){
     const ammo = document.createElement("div");
     ammo.setAttribute("id","ammo");
+    ammo.style.top = PLAYER.y+"px";
+    ammo.style.left = PLAYER.x+"px";
+    SPACE.appendChild(ammo);
 
 }
 
