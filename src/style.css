@@ -12,7 +12,7 @@
 }
 
 #space {
-    background: linear-gradient(midnightblue,rebeccapurple);
+    background: linear-gradient(#191970,rebeccapurple);
     border: 2px solid black;
     height: 720px;
     width: 1280px;
@@ -20,17 +20,24 @@
 }
 
 #player{
-    position: relative;
-    
-    top:50%;
+    position: absolute;
+    top:530px;
+    left:400px;
     height: 64px;
     width:64px;
     background-color: lightseagreen;
 }
 
+#ammo {
+    position: absolute;
+    background-color: indianred;
+    height: 32px;
+    width: 16px;
+}
 .destroyable {
     position: absolute;
     height: 64px;
     width:64px;
     background-color: lightsalmon;
 }
+
